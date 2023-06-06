@@ -1,0 +1,697 @@
+﻿
+#container {
+    width: auto;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    font-family: Calibri;
+    background-color: #D9BEA7;
+    direction: rtl;
+}
+
+.notActive {
+    /*  עכבר משנה צורה לאין כניסה*/
+    cursor: not-allowed;
+    color: gray;
+    text-decoration-line: none;
+}
+
+#map .notActive {
+    color: gray;
+}
+
+nav {
+    position: absolute;
+    margin-top: 1%;
+    display: block;
+    margin-right: 5%;
+}
+
+#pirurim {
+    /*  height:50px;*/
+    height:0%;
+    width: 400px;
+    padding: 0%;
+    margin-top: 1%;
+    /* margin-bottom: 0px;*/
+    position: relative;
+    margin-right: 3%;
+}
+
+.endOfPirurim {
+    text-decoration: none;
+}
+
+#pirurim > ul > li {
+    position: relative;
+    display: inline;
+}
+
+    #pirurim > ul > li:after {
+        content: " > ";
+    }
+
+
+    #pirurim > ul > li:last-child:after {
+        content: "";
+    }
+
+
+
+/*.openPagesEcseptHomePage > nav {
+    position: fixed;
+    display: block;
+    width: 100%;
+}
+*/
+
+#logo {
+    height: 17%;
+    width: 15%;
+}
+
+.topnav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul {
+    display: inline-block;
+    /*  padding:0px;*/
+    /* text-align:center;*/
+}
+
+li > ul {
+    font-weight: normal;
+    display: none;
+    position: absolute;
+    margin-top: 1%;
+}
+
+li:hover > ul {
+    /* font-weight: bold;*/
+    width: 50%;
+    display: block;
+    list-style: none;
+    font-size: 15px;
+    text-align: right;
+    padding-right: 0%;
+}
+
+.topnav > li {
+    margin-top: 10%;
+    float: right;
+    text-align: center;
+    font-size: 17px;
+    display: inline;
+    padding: 10px 10px;
+}
+
+/*ul > li > a:hover {*/
+/*background-color: #ddd;*/
+/*color: black;*/
+/*  padding: 4px 4px;*/
+/*}*/
+
+header ul > li:hover {
+    font-weight: bold;
+}
+
+li > ul > li > a:hover {
+    font-weight: bold;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+.activeTop {
+    font-weight: bold;
+    background-color: #D99F7E;
+    color: white;
+    padding: 10px;
+}
+
+
+#imageInHomPage {
+    position: static;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 11.204481792717086vh;
+    margin-bottom: 0%;
+}
+
+.titelInTheNave {
+    font-size: 8.403361344537815vh;
+    text-align: center;
+    position: relative;
+    margin: 0% 0% 2% 0%;
+    padding: 0%;
+}
+
+.titelInTheNaveMap {
+    position: absolute;
+    margin-right:38%;
+}
+
+    #josef_nav {
+    width: 55.5%;
+    position: relative;
+    top:0%;
+
+}
+
+h2 {
+    font-size: 3.991596638655462vh;
+}
+
+h3 {
+    font-size:4.201680672268908vh;
+    margin-top: 0%;
+}
+
+.titel {
+    position: absolute;
+    margin: 22% 13% 0% 0%;
+}
+
+footer nav div ul {
+    margin: 4% 0% 0% 0%;
+    padding: 0%;
+}
+
+.bottomnav li {
+    float: right;
+    text-align: center;
+    font-size: 2.380952380952381vh;
+    display: inline;
+    margin-bottom: 3%;
+    padding: 5px 20px;
+}
+
+    .bottomnav li a {
+        text-decoration: none;
+        color: black;
+    }
+
+        .bottomnav li a:hover {
+            padding:0%;
+            margin:0%;
+        }
+
+.opening > p {
+    text-align: justify;
+    font-size: 3.5014005602240896vh;
+    margin: 5% 20%;
+}
+
+.pilates > h2 {
+    text-align: center;
+    font-size: 8.403361344537815vh;
+}
+
+.teserBeforHover {
+    /* הגדרה של עבודה עם גריד*/
+    display: grid;
+    align-items: center;
+    /* גריד עמודות יצרנו שלוש עמודות זה לצד זה רק בשורה האמצעי יש תוכן */
+    grid-template-columns: 30% 40% 30%;
+    margin:0% 27% 1% 0%;
+/*    margin: 30px 340px 30px 0px;*/
+}
+
+.teasers:hover {
+    background-color: #D99F7E;
+}
+
+.pilates img {
+    height:20%;
+    width: 70%;
+    margin:10%;
+}
+
+#imagOfJosefInTheHomPage > img {
+    height: 18%;
+    width: 70%;
+}
+
+
+.text > p {
+    font-size: 2.8011204481792715vh;
+    text-align: justify;
+}
+
+    .text h3 {
+        width: 100%;
+        padding: 0%;
+        margin-bottom: 3%;
+        font-size: 3.641456582633053vh;
+    }
+
+footer > nav {
+    background-color: #D99F7E;
+    margin-top: 0%;
+    margin-right: 0%;
+    display: block;
+    width: 100%;
+}
+
+.shortPage {
+    position: fixed;
+    bottom: 0;
+}
+
+footer > nav > div {
+    display: inline-block;
+    margin-right:41%;
+}
+
+.sendToPages {
+    font-size: 2.8011204481792715vh;
+    font-family: Calibri;
+    /* margin-right: 65px;*/
+    color: black;
+    background-color: #B58272;
+    border: none;
+    padding: 20px 18px 20px 20px;
+    border-radius: 8px;
+    margin: 15px 0px 0px 0px;
+    box-shadow: 1px 1px;
+}
+.toActivPage {
+    cursor: pointer;
+}
+
+.sendToPages:hover {
+    box-shadow: 1px 1px #B58272;
+}
+
+#contect {
+    position: absolute;
+    /* margin-top: 130px;*/
+    /*  margin-right: 50px;*/
+    width: 80%;
+    padding: 0% 10% 0% 0%;
+    text-align: center;
+    /*display: block;*/
+}
+
+    #contect h3, p {
+        top: 0%;
+        font-size: 2.5210084033613445vh;
+        margin: 0%;
+        text-align: center;
+    }
+
+    #contect p {
+        font-size: 2.100840336134454vh;
+    }
+
+#boxContact {
+    text-align: justify;
+    padding: 0%;
+    margin: 1% 10% 2% 0%;
+    position: relative;
+}
+
+#satisfay, #intrest, #email, #male {
+    padding: 0%;
+    margin: 1% 0% 1% 0%;
+}
+
+
+#planeForContact {
+    height: 250px;
+    width: 350px;
+    margin: 0% 8% 0% 0%;
+    padding: 0%;
+    position: fixed;
+    display: inline-block;
+    float: left;
+    top: 52%;
+}
+
+#sendForm {
+    font-size: 2.8011204481792715vh;
+    font-family: Calibri;
+    /* margin-right: 65px;*/
+    color: black;
+    background-color: white;
+    box-shadow: 1px 1px;
+    border: none;
+    padding: 5px 18px 5px 20px;
+    border-radius: 8px;
+    margin: 7px 0px;
+}
+
+    #sendForm:hover {
+        box-shadow: 1px 1px white;
+    }
+
+fieldset{
+    border:none;
+}
+/*    שינוי צבע של הגבול בתיבת טקסט שצזינים בה נתונים*/
+::placeholder {
+    color: black;
+}
+
+input {
+    background-color: transparent;
+    border: solid black 1px;
+    margin: 10px;
+}
+
+/*#email {
+    margin-right: 10px;
+}*/
+
+
+
+.activDown {
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+footer > nav > div > ul > li > a:hover {
+    background-color: transparent;
+    text-decoration-line: underline;
+    color: black;
+    margin-right: 40px;
+}
+
+#map {
+    height:0%;
+   margin:2%;
+    width: 90%;
+    padding: 0%;
+    text-align: center;
+}
+
+    #map > section> nav > ul > li {
+      
+        font-size: 4.201680672268908vh;
+    }
+
+        #map > section > nav > ul > li > a:hover {
+            text-decoration: underline;
+        }
+
+
+        #map > section > nav > ul > li > ul > li {
+            padding-right: 0%;
+            margin-right: 0%;
+            width: 100%;
+            text-align: center;
+            font-size: 2.8011204481792715vh;
+        }
+
+            #map > section > nav > ul > li > ul > li > a:hover {
+                background-color: transparent;
+                text-decoration: underline;
+                width: 100%;
+            }
+
+    #map li {
+        font-size: 3.5014005602240896vh;
+        margin-right: 30px;
+        padding: 0%;
+    }
+
+    #map > section > nav > ul > li > ul {
+        background-color: transparent;
+        display: contents;
+        list-style: none;
+        font-size: 2.8011204481792715vh;
+    }
+
+span {
+    font-weight: bold;
+}
+
+
+#josefPortret {
+    width:10%;
+    margin-right:46%;
+}
+
+#josef p {
+    text-align: justify;
+    width: 64%;
+    padding: 4% 17.5% 0% 10%;
+}
+
+
+.galleryInPageOfContent {
+    width: 70%;
+    padding: 0% 16.2% 2% 0%;
+    display: inline-block;
+}
+
+    .galleryInPageOfContent div {
+        display: inline;
+        text-align: center;
+    }
+
+    .galleryInPageOfContent img {
+        height: 45%;
+        width: 30%;
+        display: inline-block;
+        margin: 0% 2% 0% 0%;
+    }
+
+        .galleryInPageOfContent img:hover {
+            opacity: 0.1;
+        }
+
+.ekronot {
+    width: 70%;
+    padding: 0% 18% 0% 0%;
+    margin: 2% 0%;
+}
+
+    .ekronot div {
+        margin: 0% 0%;
+        padding: 4% 3% 4% 0%;
+        border: 1px solid black;
+        /* margin: 10px;*/
+        width: 90%;
+    }
+
+#josef .ekronot div p {
+    width: 90%;
+    padding: 2%;
+    margin: 0%;
+}
+
+.ekronot > h2 {
+    width: 30%;
+    padding: 0% 32% 0% 35%;
+    font-size: 5.602240896358543vh;
+}
+
+#odot {
+    width: 70%;
+    padding: 0% 15% 0% 15%;
+    margin-bottom: 10%;
+}
+
+    #odot > section {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+        #odot > section > section {
+            position:relative;
+            padding:  4% 6%;
+            margin: 0% 4%;
+        }
+
+#odotPartOfTheCredit {
+ 
+    border-block-end: solid 0.5px;
+}
+
+#texrInTheOdot {
+    margin-right:2%;
+    width: 40%;
+    height: 78.2%;
+    position: absolute;
+    display: inline-block;
+    background-color: #CFD7E4;
+}
+
+#odot > section > section > div > div {
+    padding-top: 3%;
+    text-align: right;
+   margin-right:1%;
+}
+    #odot > section > section > div > div > ul {
+
+        list-style-image: url("../images/small_logo.png");
+    }
+
+#odot h3 {
+    text-align: center;
+}
+
+#imageInTheOdot {
+     margin-right: 53.2%;
+
+}
+
+
+    #imageInTheOdot > img {
+        width: 78%;
+        height: 83%;
+
+    }
+
+#logoHit {
+    height: 15%;
+    width: 15%;
+    padding: 0% 17% 0% 20%;
+}
+
+#pilatisEquipment {
+    font-size:2.5210084033613445vh;
+    font-family: Calibri;
+}
+
+    #pilatisEquipment > section > p, h3 {
+        width: 64%;
+        padding: 0% 17.5% 1% 6%;
+        text-align: justify;
+        margin: 0%;
+    }
+
+    #pilatisEquipment .galleryInPageOfContent > img:hover {
+        border: double 2.5px;
+        opacity: 1;
+    }
+
+.tipsForPilatisEquipment {
+    list-style-type: circle;
+    width: 62%;
+    padding-right: 19%;
+    margin-top: 0%;
+}
+
+.textOnJosefsPictchers {
+    color: black;
+    font-size: 2.8011204481792715vh;
+    /*padding: 8px 12px;*/
+    position: absolute;
+    text-align: center;
+    padding-top: 10%;
+    padding-right: 5.9%;
+    opacity: 0;
+    font-weight: bold;
+}
+
+div:hover > .textOnJosefsPictchers {
+    opacity: 1;
+}
+
+.hoverOnTheImeg {
+    width: 100%;
+    height: 100%;
+}
+/*גלריה*/
+
+#titelGalery > h3 {
+    width: 22%;
+    padding-right: 39%;
+}
+
+.containerOfGalery {
+    margin-bottom: 40px;
+    position: relative;
+    width: 45%;
+    /* height:1%;*/
+    margin-right: 27%;
+}
+
+    .containerOfGalery img {
+        width: 100%;
+    }
+
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-bottom: 200px;
+    color: white;
+    font-weight: bold;
+    font-size: 2.8011204481792715vh;
+    /* border-radius: 0 3px 3px 0;*/
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    left: 0%;
+    border-radius: 3px 0px 0px 3px;
+}
+
+
+.prev {
+    right: 0%;
+}
+
+    .prev:hover,
+    .next:hover {
+        background-color: #D99F7E;
+        opacity: 0.7;
+    }
+
+.numberOnImag {
+    color: black;
+    font-size: 2.8011204481792715vh;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+.captionImage {
+    text-align: center;
+    background-color: #D99F7E;
+    padding: 3px 16px;
+    color: black;
+}
+
+.rowOfAllSmallimag:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.singleImage {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.showSmallImage {
+    opacity: 0.6;
+}
+
+    .active,
+    .showSmallImage:hover {
+        opacity: 1;
+    }
